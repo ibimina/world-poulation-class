@@ -1,13 +1,78 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper{
+    margin: 3rem 0 0 0;
+    width: 100%;
+    /* padding: 1rem;
+    max-width: 360px; */
+}
+header{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+h1,h2,h3{
+    margin-bottom: .8rem;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+ /* max-width: 360px; */
+ /* width: 100%; */
+ min-width: 330px;
+ width: 100%;
+ /* margin-inline: 1rem; */
+   
+}
+.country,.length{
+    margin-right: .5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.country li,.population li{
+    height: 2rem;
+     margin: 1rem 0;
+     font-weight: 600;
+    
+}
+.length{
+    width: 100%;
+
+}
+.length li{
+    background-color: yellow;
+    height: 2rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+@media (min-width:45rem) {
+ .wrapper{
+     min-width: 600px;
+ }   
+}
+@media (min-width:60rem) {
+    .wrapper{
+        /* margin: 4rem 0 0 0; */
+        min-width: 800px;
+    }
+    .country li,.population li{
+    height: 2rem;
+     margin: .5rem 0;
+    
+    
+}
+    .length li{
+margin-bottom: .5rem;
+    }
+
 }
