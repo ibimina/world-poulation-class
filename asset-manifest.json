@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/world-poulation/static/css/main.fd834933.css",
-    "main.js": "/world-poulation/static/js/main.f58193c2.js",
-    "index.html": "/world-poulation/index.html",
-    "main.fd834933.css.map": "/world-poulation/static/css/main.fd834933.css.map",
-    "main.f58193c2.js.map": "/world-poulation/static/js/main.f58193c2.js.map"
+    "main.css": "/world-poulation-class/static/css/main.fd834933.css",
+    "main.js": "/world-poulation-class/static/js/main.f58193c2.js",
+    "index.html": "/world-poulation-class/index.html",
+    "main.fd834933.css.map": "/world-poulation-class/static/css/main.fd834933.css.map",
+    "main.f58193c2.js.map": "/world-poulation-class/static/js/main.f58193c2.js.map"
   },
   "entrypoints": [
     "static/css/main.fd834933.css",
